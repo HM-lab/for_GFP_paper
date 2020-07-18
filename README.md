@@ -12,7 +12,7 @@
 * 任意のローカルフォルダにクローンしてください。
 
 ```bash
-git clone ~~
+git clone git@github.com:HM-lab/for_GFP_paper.git
 ```
 
 ### note
