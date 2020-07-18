@@ -1,4 +1,3 @@
-
 from scipy import stats
 
 def Utest(arr1, arr2):

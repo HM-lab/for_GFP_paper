@@ -1,6 +1,5 @@
 import numpy as np
 
-#FDR
 def adjust_bh(p_values):
     p_values=np.array(p_values)
     m=len(p_values)
@@ -14,5 +13,3 @@ def adjust_bh(p_values):
         q_values[i]=np.min([q_prime[i],q_values[i+1]])
 
     return q_values[np.argsort(sorted_idx)]
-
-# q_values = adjust_bh(p_values) #p_valueのarrayを入れる
