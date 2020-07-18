@@ -1,8 +1,21 @@
 # GFP_paper用のスクリプト群
 
-### req
-
+### requirements
 * numpy
 * pandas
 * seaborn
 * matplotlib
+* scipy
+
+### usage
+
+* 任意のローカルフォルダにクローンしてください。
+
+```bash
+git clone ~~
+```
+
+### note
+
+* ファルダごとにreadmeを配置しているので確認して下さい。
+* 'data_curation', 'statical_test'フォルダ以外は基本的にplot用のスクリプトです。
