@@ -14,6 +14,8 @@ data_labels = {
              ["orchid","violet"]],
     'Tpi1': ['cell_shape_Tpi1s.xlsx', 4,
              ["darkgreen","mediumseagreen","mediumaquamarine","mediumturquoise"]],
+    'pombe': ['cell_shape_pombe.xlsx', 3,
+            ["darkgray","lime","cadetblue"]],
 }
 
 '''
@@ -23,7 +25,7 @@ data_labels = {
 '''
 
 shape = 'axis_ratio'  # size or axis_ratio
-data_label = 'FPs'    # FPs, N10s, Gpm1, Tpi1
+data_label = 'pombe'    # FPs, N10s, Gpm1, Tpi1
 
 ## read data
 data = data_labels[data_label]
@@ -42,6 +44,6 @@ plot_figure(
     colors,
     aspect=(5,3.7),   # figure size. (width, height)
     dotsize=1.5,      # swarmplot's dotsize
-    yaxis=(1,2.8,10), # yaxis limit. (min, max, number of ticks)
+    yaxis=(1,6.5,12), # yaxis limit. (min, max, number of ticks)
     save=False        # save figure
 )
